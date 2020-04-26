@@ -47,4 +47,13 @@ public class rectangle {
         
     }
 }
+  static boolean testerDonnees(double largeur, double longueur) {
+ return ((largeur > 0) && (longueur> 0));
+ }
+ 
+ 
+ static void afficherErreur () {
+ System.out.println("Erreur: vous avez introduit une largeur " +
+ "ou une longueur négative!");
+ }
 }
