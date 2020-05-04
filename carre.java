@@ -17,5 +17,3 @@ public abstract class carre{
     public double getCote() {
         return cote;
     }
-
-   
